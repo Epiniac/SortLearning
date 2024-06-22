@@ -1,63 +1,93 @@
 # SortLearning
 
-- Selection Sort
-  Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
+1. Selection Sort
 
-- Bubble Sort
-  In Bubble Sort algorithm,
+Selection sort is a simple sorting algorithm that works by repeatedly selecting the smallest (or largest, depending on the ordering) element from the unsorted portion of the list and moving it to the beginning (or end) of the sorted portion.
 
-        traverse from left and compare adjacent elements and the higher one is placed at right side.
-        In this way, the largest element is moved to the rightmost end at first.
-        This process is then continued to find the second largest and place it and so on until the data is sorted.
+2. Bubble Sort
 
-- Insertion Sort
-  Insertion sort is a simple sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list. It is a stable sorting algorithm, meaning that elements with equal values maintain their relative order in the sorted output.
+Bubble sort is a simple sorting algorithm that works by repeatedly iterating through the list, comparing adjacent elements, and swapping them if they are in the wrong order. This process is repeated until the list is sorted.
 
-  Insertion sort is like sorting playing cards in your hands. You split the cards into two groups: the sorted cards and the unsorted cards. Then, you pick a card from the unsorted group and put it in the right place in the sorted group.
+3. Insertion Sort
 
-- Merge Sort
-  Merge sort is a sorting algorithm that follows the divide-and-conquer approach. It works by recursively dividing the input array into smaller subarrays and sorting those subarrays then merging them back together to obtain the sorted array.
+Insertion sort is a simple sorting algorithm that works by iterating through the list one element at a time, inserting each element into its proper position in the previously sorted portion of the list.
 
-- Quick Sort
+4. Merge Sort
 
-- Heap Sort
+Merge sort is a divide-and-conquer algorithm that works by splitting the list into smaller sublists, sorting each sublist, and then merging the sorted sublists back together to form the final sorted list.
 
-- Counting Sort
+5. Quick Sort
 
-- Radix Sort
+Quick sort is a divide-and-conquer algorithm that works by selecting a pivot element, partitioning the list around the pivot, and then recursively sorting the sublists on either side of the pivot.
 
-- Bucket Sort
+6. Heap Sort
 
-- Bingo Sort
+Heap sort is a comparison-based sorting algorithm that uses a heap data structure to sort the list. It works by building a heap, then repeatedly removing the largest (or smallest) element from the heap and placing it at the end (or beginning) of the sorted list.
 
-- Shell Sort
+7. Counting Sort
 
-- Tim Sort
+Counting sort is a sorting algorithm that works by counting the number of occurrences of each element in the list, then using these counts to determine the final position of each element in the sorted list.
 
-- Comb Sort
+8. Radix Sort
 
-- Pigeonhole Sort
+Radix sort is a non-comparative sorting algorithm that works by sorting the list based on the digits of the elements. It is particularly useful for sorting large lists of integers or strings.
 
-- Cycle Sort
+9. Bucket Sort
 
-- Cocktail Sort
+Bucket sort is a distribution sort that works by dividing the list into smaller buckets, each of which is then sorted individually. The sorted buckets are then combined to form the final sorted list.
 
-- Strand Sort
+10. Bingo Sort
 
-- Bitonic Sort
+Bingo sort is a variation of the insertion sort algorithm that uses a binary search to find the correct position for each element in the sorted portion of the list.
 
-- Pancake Sort
+11. Shell Sort
 
-- Permutation Sort
+Shell sort is a comparison-based sorting algorithm that works by dividing the list into smaller sublists, each of which is then sorted using insertion sort. The sublists are then merged to form the final sorted list.
 
-- Gnome Sort
+12. Tim Sort
 
-- Sleep Sort
+Tim sort is a hybrid sorting algorithm that combines elements of merge sort and insertion sort. It is known for its high performance and is used as the default sorting algorithm in Python.
 
-- Stooge Sort
+13. Comb Sort
 
-- Tree Sort
+Comb sort is an improved version of bubble sort that eliminates "turtles" (small values near the end of the list) to improve performance.
 
-- Odd-Even Sort
+14. Pigeonhole Sort
 
-- 3-way Sort
+Pigeonhole sort is a sorting algorithm that works by distributing the elements of the list into a number of buckets, each of which is then sorted individually. The sorted buckets are then combined to form the final sorted list.
+
+15. Cycle Sort
+
+Cycle sort is a comparison-based sorting algorithm that works by finding cycles in the list and rotating them to their correct positions.
+
+16. Cocktail Sort
+
+Cocktail sort is a variation of bubble sort that alternates the direction of the passes through the list to improve performance.
+
+17. Strand Sort
+
+Strand sort is a sorting algorithm that works by dividing the list into smaller sublists, each of which is then sorted individually. The sorted sublists are then merged to form the final sorted list.
+
+18. Bitonic Sort
+
+Bitonic sort is a parallel sorting algorithm that works by dividing the list into smaller sublists, each of which is then sorted individually. The sorted sublists are then merged to form the final sorted list.
+
+19. Pancake Sort
+
+Pancake sort is a sorting algorithm that works by flipping the largest unsorted pancake to the top of the list, then flipping it to its correct position.
+
+20. Permutation Sort
+
+Permutation sort is a sorting algorithm that works by generating all possible permutations of the list, then selecting the sorted one.
+
+21. Gnome Sort
+
+Gnome sort is a variation of insertion sort that uses a series of swaps to move elements to their correct positions.
+
+22. Sleep Sort
+
+Sleep sort is a sorting algorithm that works by using multiple threads to sort the list, with each thread sleeping for a time proportional to the value of the element it is sorting.
+
+23. Stooge Sort
+
+Stooge sort is a recursive sorting algorithm that works by dividing the list into smaller sublists, each of which is then sorted individually. The sorted sublists are then merged to form the final
